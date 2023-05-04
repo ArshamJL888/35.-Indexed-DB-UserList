@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="../icon/icons8-login-50.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+
+        <section class="form">
+            <div class="container">
+                <form class="register-form" style="display: inline-block;">
+                    <div class="form-inputs">
+                        <input required id="user" min="12" placeholder="Username" type="text" class="input">
+                        <input required id="pass" min="8" placeholder="Password" type="password" class="input">
+                        <input required id="email" placeholder="Email" type="email" class="input">
+                    </div>
+                    <div class="form-button">
+                        <button class="form-log-in">CREATE</button>
+                    </div>
+                    <div class="form-footer">
+                        <span class="form-footer-text">Already registered?</span>
+                        <a href="#" class="form-footer-link">Sign In</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="users-list">
+            <div class="list">
+                <div class="list-header">
+                    <div class="id-head">ID</div>
+                    <div class="name-head">Name</div>
+                    <div class="email-head">Email</div>
+                    <div class="password-head">Password</div>
+                    <div class="action-head">Actions</div>
+                </div>
+                <div class="main-list">
+                    <div class="list-item">
+                        <div class="id">1</div>
+                        <div class="name">Ali</div>
+                        <div class="email">aliQz@gmail.com</div>
+                        <div class="password">123456</div>
+                        <div class="action">wlm'</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="../js/indexDB.js"></script>
+</body>
+
+</html>

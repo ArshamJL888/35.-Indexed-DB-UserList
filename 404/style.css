@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "TTNorms";
+    src: url("fonts/TTNorms-Regular.otf") format("openType");
+}
+
+@font-face {
+    font-family: "TTNorms Light";
+    src: url("fonts/TTNorms-Light.otf") format("openType");
+}
+
+@font-face {
+    font-family: "TTNorms Medium";
+    src: url("fonts/TTNorms-Medium.otf") format("openType");
+}
+
+@font-face {
+    font-family: "Times Roman";
+    src: url("fonts/Times-new-roman-italic.ttf") format("trueType");
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    background-image: url("background/5m0ofb.jpg");
+    /* background-image: url("background/GettyImages_670341936.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.error-container {
+    margin: 40px auto;
+    /* border: 1px #FFF solid; */
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+}
+
+.number-404-text {
+    font-weight: 800;
+    font-size: 15rem;
+    color: #FFF;
+}
+
+.error-text {
+    max-width: 35rem;
+    color: #FFF;
+    font-family: "Times Roman";
+    line-height: 1.5;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.back-to-homepage {
+    padding: 1rem 1.5rem;
+    margin-top: 2rem;
+    background-color: #00ff7f;
+    color: #FFF;
+    font-size: 1.1rem;
+    font-weight: 650;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.back-to-homepage:hover {
+    background-color: #00a94f;
+}
